@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Geofindr</title>
     <link rel="shortcut icon" href="static/imgs/globe.png" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/stylesheets/main.css">
   </head>
   <body>
@@ -15,7 +15,7 @@
         <h1>Geofindr</h1>
 
       </div>
-      <p>Unfortunately right now this takes ~2 seconds per location. It may take a while for large lists</p>
+      <p>headers: [id], [address], [city], [state], [zip]</p>
       <form action="/results" method="POST" enctype="multipart/form-data">
         <label>Upload CSV:<label>
         <input type="file" accept=".csv" value='' name="file" />

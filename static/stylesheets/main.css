@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
 }
 
 body {
@@ -27,6 +26,7 @@ section {
   display: flex;
   align-items: center;
   margin: 12px 0;
+  font-family: 'DM Mono', monospace;
 }
 
 #logo {
@@ -56,7 +56,7 @@ input[type=submit] {
   border-radius: 4px;
   padding: 8px 12px;
   cursor: pointer;
-  background: #333;
+  background: #B22222;
   color: #fff;
   margin-top: 16px;
   font-weight: bold;
@@ -65,7 +65,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background: black;
+  background: #831A1A;
   color: white;
 }
 
@@ -101,7 +101,7 @@ input[type=submit]:hover {
     font-size: 0.7rem;
   }
   input[type=submit] {
-    background: #e6004c;
+    background: #B22222;
     color: white;
   }
 }
