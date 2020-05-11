@@ -7,7 +7,7 @@ app = Flask(__name__)
 import os
 import pandas as pd
 
-# Set path to upload csv (path of current app dirnae)
+# Set path to upload csv (path of current app dirname)
 APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 
 # Create get route, function to run on request
@@ -15,7 +15,7 @@ APP_ROOT = os.path.dirname(os.path.abspath(__file__))
 def home_route():
     return render_template('upload.html')
 
-# Create post route, function to run on request
+# Create post & get route, function to run on request
 @app.route('/results', methods=['POST', 'GET'])
 def send_csv():
     if request.method == 'POST':
