@@ -3,19 +3,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geofindr</title>
-    <link rel="shortcut icon" href="static/imgs/globe.png" />
-    <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Roboto&display=swap" rel="stylesheet">
+    <title>Uploadr</title>
+    <link rel="shortcut icon" href="static/imgs/upload.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="static/stylesheets/main.css">
   </head>
   <body>
     <section>
       <div id="brand">
-        <img id="logo" src="/static/imgs/globe.png" alt="geofindr-logo">
-        <h1>Geofindr</h1>
-
+        <img id="logo" src="/static/imgs/upload.png" alt="geofindr-logo">
+        <h1>Uploadr</h1>
       </div>
-      <p>headers: [id], [address], [city], [state], [zip]</p>
       <form action="/results" method="POST" enctype="multipart/form-data">
         <label>Upload CSV:<label>
         <input type="file" accept=".csv" value='' name="file" />
